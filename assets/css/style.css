@@ -1,0 +1,208 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html {
+    background-image: url(https://static.chotot.com/storage/banner/Theming-ELT-TM.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: "Poppins", sans-serif;
+}
+
+
+/* common */
+
+.far {
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 1.2rem;
+}
+
+.content {
+    width: 940px;
+}
+
+/* fixed-header */
+
+.fix-header {
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 134px;
+    background: #ffba00;
+    padding-top: 10px;
+}
+
+.navbar .btn {
+    padding-right: 10px;
+}
+.btn + .btn {
+    border-left: 1px solid #222;
+    padding-left: 10px;
+}
+
+.navbar .top,.center, .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .download, .help, .feedback {
+    margin-left: 20px;
+}
+
+.navbar img {
+    height: 35px;
+}
+
+.navbar .center {
+    margin-top: 15px;
+}
+
+.navbar .ctl {
+    font-size: 1.6rem;
+    margin-left: 40px;
+}
+
+.navbar .center-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .input {
+    width: 750px;
+    display: flex;
+}
+.navbar .all-find {
+    display: flex;
+    width: 800px;
+}
+.navbar #fname {
+    display: block;
+    border: 0 solid #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 33px;
+    width: 100%;
+}
+
+.navbar .find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    height: 33px;
+    background-color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.navbar .sub-find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 28px;
+    background-color: #FF8800;
+    border-radius: 4px;
+}
+
+.navbar .post {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+.navbar .upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 30px;
+    background-color: #FF8800;
+    border-color: #FF8800;
+    border-radius: 5px;
+}
+
+
+.navbar .fa-edit {
+    margin-right: 4px;
+    color: #fff;
+}
+
+.navbar .bottom {
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 60vh;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.main-content .list-items {
+    display: flex;
+}
+
+.main-content .image {
+    height: 33px;
+    width: 33px;
+}
+
+.main-content .item {
+    width: 11%;
+}
+
+.main-content .subitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px 0; 
+}
+
+.main-content span {
+    font-size: 1.4rem;
+}
+
+.main-content .list-items {
+    margin-top: 15px;
+}
+
+.main-content a:hover {
+    color: #2a5079;
+}
+
+.main-content .news {
+    border-radius: 5px;
+}
